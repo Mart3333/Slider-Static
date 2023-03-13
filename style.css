@@ -1,0 +1,35 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.slider{
+    height: 256px;
+    width: 256px;
+    border: 2px solid black;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.slider-line{
+    height: 256px;
+    width: 1024px;
+    background: gray;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition:  all ease 0.5s;
+}
+.slider-buttons button{
+    width: 70px;
+    height: 35px;
+    outline: 0;
+    border: 1px solid black;
+}
